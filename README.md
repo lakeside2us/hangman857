@@ -18,8 +18,6 @@ Hangman Game
 
 ### Usage Instructions
 
-In order to run this game, you need to need Git to clone this repository.
-
 From your command line run the following commands:
 
 ```
