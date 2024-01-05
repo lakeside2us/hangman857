@@ -4,36 +4,49 @@
 
 1. Project Title
 2. Project Description
-3. Installation Instructions
-4. Usage Instructions
-5. Project File Structure
-6. License Information
-7. Authors
-8. Version History
+3. Usage Instructions
+4. License Information
+5. Authors
 
 ### Project Title
 
-Hangman
+Hangman Game
 
 ### Project Description
 
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
-
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it.
-
-### Project Instructions
+<p style='text-align: justify;'> This is the implementation of the classic Hangman game. In the game,  the computer thinks of a random word, and the user/player is given five attempts to guess the computer random word.</p>
 
 ### Usage Instructions
 
-### Project File Structure
+In order to run this game, you need to need Git to clone this repository.
+
+From your command line run the following commands:
+
+```
+# Clone this repository
+$ git clone https://github.com/lakeside2us/hangman857
+
+# Go into the repository
+$ cd hangman857
+
+# Run the game
+$ python milestone_5.py 
+```
+
+<p style='text-align: justify;'> In the game, the user/player will be asked to enter a single letter and this letter will first be checked to see if it's a single alphabet character.</p>
+<p style='text-align: justify;'>Once the letter passed the initial check, and the letter is in the the computer random word, the user/player will get a confirmation message that tells the user that the word is in the computer random word. The user will continue till all the letters are guessed correctly.</p>
+<p style='text-align: justify;'>The user/player gets five attempts known as number of lives and once the five lives is exhausted,  to guess the correct letter case, the user/player loses.</p>
+If the user/player is able to guess all the letters in the word correctly, the users/player wins the game.</p>
+
 
 ### License Information
+
+This project is licensed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 ### Authors
 
 ***Name: Olawale Olalekan***
-***email: <lakeside2us@yahoo.co.uk>***
-
-### Version History
 
 ### Acknowledgments
+
+<p style='text-align: justify;'>Special thanks to AiCore for the training and support to make this project a reality.
